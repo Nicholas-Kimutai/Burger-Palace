@@ -1,0 +1,8 @@
+*{
+ height: fit-content;
+}
+.nav{
+    background-color: aliceblue;
+    display: flexbox;
+    flex-direction: row;
+}
