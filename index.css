@@ -24,3 +24,12 @@ text-decoration: none;
 font-weight: bold;
 font-size: x-large;
 }
+
+.section{
+    flex-direction: row;
+    display: flex;
+    background-color:whitesmoke;
+    padding:100 px;
+}
+
+
