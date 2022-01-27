@@ -1,8 +1,18 @@
 *{
- height: fit-content;
+ margin: 0em;
+ padding: 0em;
 }
 .nav{
     background-color: aliceblue;
     display: flexbox;
     flex-direction: row;
+}
+ul{
+
+    display:inline;
+    float:right;
+
+}
+ ul li{
+    text-decoration: none;
 }
