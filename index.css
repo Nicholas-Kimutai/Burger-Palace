@@ -116,3 +116,9 @@ font-size: x-large;
 .menu, .menu2{
     text-align: center;
 }
+.section2{
+    background-color: linen;
+}
+.section2 h2,p{
+    font: size 15px;
+}
