@@ -51,20 +51,42 @@ font-size: x-large;
     
 }
 
-.menu{
+
+.content{
     flex-direction: row;
     display: flex;
-    border: 100px;
-    
+    background-color:rgba(117, 112, 112, 0.356);
+    padding:100 px;
 }
-.menu2{
-    display: flex;
-    border: 100px;
-    flex-direction: row;
+
+.menu{
+    flex-direction: column;
+    flex-wrap: wrap;
     padding: 50px;
+    border:solid gray;
     border-radius:10%;
+    margin: 30px;
+    width: 200px;
+    background-color: rgb(245, 239, 239);
 
+}
 
+.menu2{
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+    border:solid gray;
+    border-radius:10%;
+    margin: 30px;
+    width: 200px;
+    background-color: rgb(245, 239, 239);
 
+}
+.content h2{
+    font-size: 30pt;
+    text-decoration: underline yellow;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
 }
 
