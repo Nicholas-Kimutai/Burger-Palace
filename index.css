@@ -1,13 +1,28 @@
 *{
- margin: 0em;
- padding: 0em;
+ box-sizing:none;
 }
 .nav{
     background-color: aliceblue;
+    padding: 100px;
 }
-.logo{
+.burger1{
+    font-weight: 30px;
+    font-size: x-large;
+    color: black;
+}
+.burger2{
+    font-weight: 30px;
+    font-size: x-large;
+    color:  #F6B400;
+}
+.sec1 button{
+    background-color: #F6B400;
+    border-radius: 25px 25px 0 25px;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    color: white;
+}
 
-}
 ul{
     float:right;
 
@@ -24,6 +39,15 @@ text-decoration: none;
 font-weight: bold;
 font-size: x-large;
 }
+
+.sec1 img{
+    float: right;
+    background-color: #F6B400;
+    width: 30%;
+    height: 600px;
+    margin-top: 10px;
+    margin-top: -10px;
+} 
 
 .section{
     flex-direction: row;
@@ -82,7 +106,7 @@ font-size: x-large;
     background-color: rgb(245, 239, 239);
 }
 
-.content h2{
+.mcont h2{
     font-size: 30pt;
     text-decoration: underline yellow;
     font-weight: bold;
