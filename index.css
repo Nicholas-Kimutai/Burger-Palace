@@ -51,3 +51,20 @@ font-size: x-large;
     
 }
 
+.menu{
+    flex-direction: row;
+    display: flex;
+    border: 100px;
+    
+}
+.menu2{
+    display: flex;
+    border: 100px;
+    flex-direction: row;
+    padding: 50px;
+    border-radius:10%;
+
+
+
+}
+
