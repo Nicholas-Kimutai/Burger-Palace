@@ -86,7 +86,9 @@ font-size: x-large;
     font-size: 30pt;
     text-decoration: underline yellow;
     font-weight: bold;
+    color:black;
     text-align: center;
-    align-content: center;
 }
-
+.menu, .menu2{
+    text-align: center;
+}
